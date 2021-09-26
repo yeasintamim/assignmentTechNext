@@ -1,0 +1,25 @@
+.yeasin {
+    /* margin: 20px;
+    background-color: green;
+    width: 284px;
+    height: 311px; */
+    /* position: absolute; */
+    
+    color:white;
+    width: 174px;
+    height: 300px;
+    left: 300px;
+    top: 424px;
+    background-position: center;
+    /* background: linear-gradient(183.59deg, rgba(0, 0, 0, 0) 45.33%, rgba(0, 0, 0, 0.99) 87.39%), url('https://cutt.ly/CEze05F'), #C4C4C4; */
+    /* background:url('https://image.shutterstock.com/image-photo/taj-mahal-india-seven-wonders-600w-268671494.jpg'); */
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+/* .tlDesign{
+    margin-top:120%;
+    margin-right:10%;
+    margin-left:10%;
+} */
+

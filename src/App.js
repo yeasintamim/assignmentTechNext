@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import NavBar from './NavBar.js'
+import {Info} from './CardInfo.js'
 import './App.css';
+import Card from './Card.js'
 
 function App() {
+
+
+
+  console.log(Info)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome, Find a flexible flight for your next trip</h1>
+      <h1>countries you can travel to right now</h1>
+      <p>Popular destinations open to visitors from your country</p>
+      <NavBar />
+     
+      {/* {
+        Info.map(({title,description})=>{
+        return <Card title = {title} description = {description} />}
+        )
+      } */}
+      
     </div>
   );
 }
 
 export default App;
+
